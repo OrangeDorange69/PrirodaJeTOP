@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochrana přírody a krajiny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ochrana přírody a krajiny</h1>
+        <p>Stránka věnovaná projektu o ochraně přírody a krajiny</p>
+        <div id="hymnButtons" class="hymn-buttons">
+            <button id="americaHymn" class="hymn-button">Zvuk lesa</button>
+            <button id="stopHymn" class="hymn-button">Vypnout zvuky</button>
+        </div>        
+    </header>    
+
+    <section>
+        <div id="gameHeader" class="game-header">
+            <h2 class="game-title">Hra: Ochrana přírody a znovuzrození krajiny</h2>
+            <button id="startButton" class="start-button">Start</button>
+        </div>
+        <div id="introContainer" class="intro-container hidden">
+            <p id="introText" class="intro-text"></p>
+        </div>
+        <div id="questionContainer" class="hidden">
+            <p id="question" class="question-text"></p>
+            <ul id="answers" class="answer-list">
+            </ul>
+            <button id="checkButton" class="check-button">Zkontrolovat</button>
+        </div>
+        <p id="result" class="result-text"></p>
+    </section>
+    <img src="les.jpg" alt="" srcset="" height="1080" width="1430">
+
+    <br>
+    <footer>
+        &copy; 2024 Projekt ZPV EDUCANET
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
